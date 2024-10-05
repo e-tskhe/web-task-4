@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<html lang="ru"></html>
+
+    <head>
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+        
+        <meta charset="utf-8">
+        <title>Ю rock!</title>
+
+        <link rel="stylesheet" href="style+.css">
+
+        <link rel="icon" type="image\png" href="logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+
+        <div class="container-fluid">
+            <header>
+                <div class="row">
+                <div class="col-sm-1"><img id="logo" src="logo.png" alt="Логотип"/></div>
+                <div class="col-sm-8 text-center"><h1>Ю rock!</h1></div>
+            </header>
+        </div>
+
+
+        <div class="container">
+            <nav class="navbar navbar=default" role="navigation">
+                <ul class="nav">
+                    <div class="row">
+                        <div class="col-sm py-2 px-4"><li class="nav-item"><a href="#links">Ссылки</a></li></div>
+                        <div class="col-sm py-2 px-4"><li class="nav-item"><a href="#formular">Анкета</a></li></div>
+                        <div class="col-sm py-2 px-4"><li class="nav-item"><a href="#table">Таблица</a></li></div>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+
+
+        <main class="b-content container">
+            <div class="justify-content-center">
+                <div class="row">
+
+                    <div class="col-12 order-sm-last">
+                        <h2 id="table">Таблица</h2>
+                        <table class="table caption-top table-success table-striped table-bordered">
+                            <caption class="text-center">Расписание занятий на понедельник</caption>
+                            <thead class="text-center">
+                                <tr class="col h-25">
+                                    <th>Пары</th>
+                                    <th>27/1</th>
+                                    <th>27/2</th>   
+                                    <th>28/1</th>
+                                    <th>28/2</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr>
+                                    <td rowspan="2">1</td>
+                                    <td>Дифференциальные уравнения</td>
+                                    <td>Компьютерные сети</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td colspan=4>Математический анализ</td>
+                                </tr>
+
+                                <tr>
+                                    <td>2</td>
+                                    <td colspan="4">Разработка пользовательского WEB интерфейса</td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td colspan="4">Объектно-ориентированное программирование</td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="2">4</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td rowspan="2">Дискретные математические системы</td>
+                                    <td rowspan="2">Объектно-ориентированное программирование</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Дифференциальные уравнения</td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="2">5</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Объектно-ориентированное программирование</td>
+                                    <td>Иностранный язык</td>
+                                </tr>
+
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="col-12 order-sm-first"></div>
+                        <h2 id="links">Ссылки</h2>
+                            <ul>
+                            <li><a href="http://kubsu.ru/">КубГУ</a></li>
+                            <li><a href="https://kubsu.ru/">КубГУ https</a></li>
+                            <li>Ссылка-изображение<br/>
+                                <a href="https://kubsu.ru/ru/bio/uchebnyy-botanicheskiy-sad-kubgu">
+                                <img src="image.jpg" alt="Цветок" style="width: 400px;"/></a></li>
+                            <li><a href="/about"></a>Сокращенная ссылка на внутреннюю страницу</li>
+                            <li><a href="/"></a>Сокращенная ссылка на главную страницу</li>
+                            <li><a href="#formular">Ссылка на анкету</a></li>
+                            <li><a href="https://kubsu.ru/?first=1&second=2&third=3">
+                                Ссылка с 3-мя параметрами в URL</a></li>
+                            <li><a href="https://kubsu.ru/index.php?ID=1"></a>
+                            Ссылка с параметром id в URL</li>
+                            <li><a href="index.html"></a>Страница в текущем каталоге</li>
+                            <li><a href="about/index.html"></a>Страница в каталоге about</li>
+                            <li><a href="../index.html">Страница в каталоге 
+                                уровнем выше текущего</a></li>
+                            <li><a href="../../index.html">Страница в каталоге
+                                двумя уровнями выше текущего</a></li>
+                            <li>Контекстная ссылка в тексте на сайт <a href="https://kubsu.ru/">университета</a></li>
+                            <li><a href="https://ru.wikipedia.org/wiki/#about_something">
+                                Ссылка на фрагмент страницы стороннего сайта
+                            </a></li>
+                            <li>Ссылки из областей картинки<br/>
+                                <img src="picture.png" usemap="#image-map">
+                                <map name="image-map">
+                                    <area target="" alt="Квадрат" title="Квадрат" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82" 
+                                    coords="43,37,187,185" shape="rect">
+                                    <area target="" alt="Круг" title="Круг" href="https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%83%D0%B3" 
+                                    coords="299,105,82" shape="circle">
+                                </map>
+                                </map>
+                            </li>
+                            <li><a href="">Ссылка с пустым href</a></li>
+                            <li><a>Ссылка без href</a></li>
+                            <li><a href="https://kubsu.ru/" 
+                                rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
+                            <li><a href="https://kubsu.ru/" 
+                                rel="noindex">Ссылка, запрещенная для индексации поисковиками</a></li>
+                            <li><a href="ftp://user_login:password@host/file.txt"></a>
+                            Ссылка на файл на сервере FTP с авторизацией</li>
+                            </ul>
+
+                            <h2>Еще немного полезных ссылок</h2>
+
+                            <ol>
+                            <li><a href="https://html5book.ru/" title="HTML5  Book"
+                                target="_blank">HTML 5 Book</a></li>
+                            <li><a href="https://htmlbook.ru/" title="HTML 5 Справочник"
+                                target="_blank">Справочник по HTML 5</a></li>
+                            <li><a href="https://validator.w3.org/" title="Validator HTML"
+                                target="_blank">Валидатор HTML</a></li>
+                            </ol>
+        
+        
+                        <h2 id="formular">Анкета</h2>
+                        <form action="/" 
+                            method="POST">
+                            
+                            <p><label>ФИО:<br />
+                                <input name="field-name-1" type=text 
+                                    pattern="^[А-Яа-яЁё\s]+$" title="ФИО должно содержать только буквы"
+                                    required placeholder="Ваше имя">
+                            </label><br /></p>
+
+                            <p><label>Телефон:<br />
+                                <input name="field-tel" required placeholder="Ваш номер телефона" 
+                                type="tel" pattern="^[0-9]+$" 
+                                title="Номер телефона должен содержать только цифры"/>
+                            </label><br /></p>
+
+                            <p><label>Email:<br />
+                                <input name="field-email" required placeholder="Ваша почта"
+                                type="email"/>
+                            </label><br /></p>
+
+                            <p><label>Дата рождения:<br />
+                                <input name="field-date" type="date"/>
+                            </label><br /></p>
+
+                            <p><label>Пол:<br />
+                                <input type="radio" 
+                                name="radio-group-1" value="'male"/>Мужской
+                            </label>
+                            <label><input type="radio" 
+                                name="radio-group-1" value="female"/>Женский
+                            </label><br /></p>
+
+                            <p><label>
+                                <select name="field-name-3[]" multiple="multiple"
+                                style="width:100px; height:100px">
+                                    <option value="Pascal">Pascal</option>
+                                    <option value="С">С</option>
+                                    <option value="С++" selected="selected">С++</option>
+                                    <option value="JavaScript">JavaScript</option>
+                                    <option value="PHP">PHP</option>
+                                    <option value="Python">Python</option>
+                                    <option value="Java">Java</option>
+                                    <option value="Haskel">Haskel</option>
+                                    <option value="Clojure">Clojure</option>
+                                    <option value="Prolog">Prolog </option>
+                                    <option value="Scala">Scala</option>
+                                </select>
+                            </label></p>
+
+                            <p><label>Биография:<br />
+                                <textarea name="field-name-2" 
+                                required placeholder="Не забудьте рассказать о ваших интересах :)"></textarea>
+                            </label></p>
+
+                            <p><label>С контрактом ознакомлен(-а): <input type="checkbox" 
+                                checked="checked" name="contract"/>
+                            </label></p>
+
+                            <input type="submit" value="Отправить" />
+
+                        </form>
+                    </div>
+                </div>
+            </div> 
+        </main>
+    
+
+        <footer>
+            <div>
+                <time datetime="2024">2024</time> Copyright &copy; 
+                Цхе Екатерина
+            </div>
+        </footer>
+
+    </body>
